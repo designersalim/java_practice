@@ -75,3 +75,52 @@ console.log("40"+150)
 console.log(40-"20")
 
 console.log("40"-15)
+
+
+if(10 > 9){
+    console.log("I will buy a Private car")
+}
+else{
+    console.log("I will buy a bike")
+}
+
+if(9 > 9){
+    console.log("I will buy a Private car")
+}
+else{
+    console.log("I will buy a bike")
+}
+
+if(9 > 10){
+    console.log("I will buy a Private car")
+}
+else{
+    console.log("I will buy a bike")
+}
+
+if(9 >= 9){
+    console.log("I will buy a Private car")
+}
+else{
+    console.log("I will buy a bike")
+}
+
+const salary = 30000;
+const isJobHolder = false;
+const height = 65;
+
+if(salary > 25000 && isJobHolder == true){
+    console.log('I will marry you toady')
+}
+else{
+    console.log('Wait for full fill my condition if you cannot full fill the condition I will choose another one')
+}
+
+if(salary > 25000 || isJobHolder == true){
+    console.log('I will marry you today')
+}
+else{
+    console.log('Wait for full fill my condition if you cannot full fill the condition I will choose another one')
+}
+
+
